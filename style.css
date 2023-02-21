@@ -10,9 +10,17 @@
   margin: 0 auto;
 }
 
-body {
+body {/files-pri/T91QPE3BP-F04QCKD9SCB/discord.png
   font-family: Arial, Helvetica, sans-serif;
 
+  
+
+}
+
+.container ul li a{
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
 }
 .bkgrigio{
   background-color: lightgray;
@@ -24,10 +32,9 @@ header {
   height: 80px;
   background-color: #255EEA;
 }
-/* debug */
 
 header .container {
-  background-color: aliceblue;
+  background-color: #255EEA;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -56,6 +63,15 @@ align-items: center;
 /* debug */
 background-color: royalblue;
 
+}
+
+.bottone {
+  border-radius: 16px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  text-align: center;
 }
 .content {
   width: 40%;
@@ -132,4 +148,9 @@ footer .bottom {
           /* debug */
 background-color: lightgreen;
 
+}
+
+.ico {
+   font-size: 40px;
+   color: red;
 }
