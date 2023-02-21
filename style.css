@@ -101,7 +101,9 @@ section.bottom  .container {
 }
 
       /* footer */
-
+footer {
+  background-color: black;
+}
       footer .top{
         display: flex;
         height: 300px;
