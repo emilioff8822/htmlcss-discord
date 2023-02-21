@@ -1,0 +1,133 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.bkgrigio{
+  background-color: lightgray;
+}
+
+  /* header */
+
+header {
+  height: 80px;
+  background-color: #255EEA;
+}
+/* debug */
+
+header .container {
+  background-color: aliceblue;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* debug */
+background-color: royalblue;
+
+}
+.content {
+  width: 40%;
+  /* debug */
+  background-color: blue;
+
+}
+
+/* MAIN */
+section {
+  padding: 30px 0;
+    /* debug */
+    min-height: 400px;
+
+}
+
+section .container {
+  display: flex;
+  height: 400px;
+    /* debug */
+    background-color: orange;
+
+}
+
+section .container .image {
+  width: 60%;
+      /* debug */
+      background-color: lightgreen;
+
+}
+
+section .container .text {
+  width: 40%;
+      /* debug */
+      background-color: lightpink;
+
+}
+section.bottom  .container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+      /* footer */
+
+      footer .top{
+        display: flex;
+        height: 300px;
+        /* debug */
+        background-color: darkgreen;
+
+
+      }
+      footer .top .colonnasocial {
+        display: flex;
+        flex-grow: 2;
+        height: 100%;
+
+      }
+      footer .top .colonnamenu {
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        border: 1px solid black;
+
+      }
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+          /* debug */
+background-color: lightgreen;
+
+}
