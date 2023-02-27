@@ -13,8 +13,6 @@
 body {/files-pri/T91QPE3BP-F04QCKD9SCB/discord.png
   font-family: Arial, Helvetica, sans-serif;
 
-  
-
 }
 
 .container ul li a{
@@ -60,7 +58,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-image: url(img/jumbo.png);
-
+background-size: cover;
+background-position: center;
 
 /* debug */
 background-color: royalblue;
@@ -93,7 +92,10 @@ background-color: royalblue;
 
 
 }
-
+.text {
+  text-align: center;
+  text-align: center;
+}
 
 .jumbotron .content h1{
   color: white;
